@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Products</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600;700&display=swap" rel="stylesheet">
+  <script>
+    window.addEventListener('DOMContentLoaded', (event) => {
+      const buttons = document.querySelectorAll('.hero-btn');
+      buttons.forEach((button) => {
+        button.addEventListener('click', () => {
+          alert('Thank you for buying!');
+        });
+      });
+    });
+  </script>
+</head>
+<body>
+  <section class="sub-header">
+    <nav>
+      <a href="index.html"><img src="logo2.png"></a>
+      <div class="nav-links">
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="About.html">ABOUT</a></li>
+          <li><a href="Product.html">PRODUCTS</a></li>
+          <li><a href="Gallery.html">GALLERY</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </div>
+    </nav>
+    <h1>Our Products</h1>
+  </section>
+
+  <section class="product">
+    <h1>Our Products</h1>
+    <p>Buy The Things You Want!!</p>
+    <div class="row">
+      <div class="product-col">
+        <img src="elementary.jpg" alt="">
+        <h3>Elementary Pack</h3>
+        <p>Php. 200.00</p>
+        <a href="" class="hero-btn red-btn">BUY NOW</a>
+      </div>
+      <div class="product-col">
+        <img src="highschool.jpg" alt="">
+        <h3>HighSchool Kit</h3>
+        <p>Php. 300.00</p>
+        <a href="" class="hero-btn red-btn">BUY NOW</a>
+      </div>
+      <div class="product-col">
+        <img src="level3.jpg" alt="College Pack">
+        <h3>College Pack</h3>
+        <p>Php. 500.00</p>
+        <a href="" class="hero-btn red-btn">BUY NOW</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="footer">
+    <h4>About Us</h4>
+    <p>We are a company committed to education, offering school supplies for elementary and college students.<br> We foster creativity, support teachers, provide practical solutions for college students, prioritize affordability, and promote sustainability.<br>Join us in empowering young minds and equipping students for success.</p>
+    <div>
+      <p>Made by Dylan</p>
+    </div>
+  </section>
+</body>
+</html>
